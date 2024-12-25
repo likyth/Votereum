@@ -1,0 +1,57 @@
+#main {
+  background-image: linear-gradient(
+    60deg,
+    #3d3393 0%,
+    #2b76b9 37%,
+    #2cacd1 65%,
+    #35eb93 100%
+  );
+}
+
+.primary-button {
+  @apply bg-gradient-to-r from-blue-700 to-blue-500 text-white font-bold py-2 px-4 rounded-2xl transition duration-300 ease-in-out transform hover:scale-105 m-5;
+  @apply md:py-3 md:px-5 lg:py-3 lg:px-6;
+}
+
+.secondary-button {
+  @apply bg-gradient-to-r from-gray-700 to-gray-500 text-white font-bold py-2 px-4 rounded-xl transition duration-300 ease-in-out transform hover:scale-105;
+  @apply md:py-3 md:px-5 lg:py-4 lg:px-6;
+}
+
+.danger-button {
+  @apply bg-gradient-to-r from-red-700 to-red-500 text-white font-bold py-2 px-4 rounded-xl transition duration-300 ease-in-out transform hover:scale-105;
+  @apply md:py-3 md:px-5 lg:py-4 lg:px-6;
+}
+
+.success-button {
+  @apply bg-gradient-to-r from-green-700 to-green-500 text-white font-bold py-2 px-4 rounded-xl transition duration-300 ease-in-out transform hover:scale-105;
+  @apply md:py-3 md:px-5 lg:py-4 lg:px-6;
+}
+
+.large-heading {
+  @apply text-3xl md:text-4xl lg:text-5xl font-extrabold text-blue-900;
+}
+
+.medium-heading {
+  @apply text-2xl md:text-3xl lg:text-4xl font-bold text-blue-800;
+}
+
+.small-heading {
+  @apply text-xl md:text-2xl lg:text-3xl font-bold text-blue-700;
+}
+
+.body-text {
+  @apply text-sm md:text-base lg:text-lg text-blue-600;
+}
+
+.muted-text {
+  @apply text-xs md:text-sm lg:text-base text-blue-500;
+}
+
+.hero {
+  @apply md:h-[28rem];
+}
+
+.page-container {
+  @apply m-2 md:m-6 lg:m-8 p-2 md:p-6 lg:p-8;
+}
